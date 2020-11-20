@@ -1,0 +1,70 @@
+{
+  "id": "tech_about",
+  "type": "SharedSlice",
+  "name": "TechAbout",
+  "description": "TechAbout",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TechAbout",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your product"
+          }
+        }
+      },
+      "items": {
+        "sectionTitle": {
+          "config": {
+            "label": "Title of Section",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "details": {
+          "config": {
+            "label": "details of blog",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "code": {
+          "config": {
+            "label": "code",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "thumb": {
+          "config": {
+            "label": "section image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      }
+    }
+  ]
+}

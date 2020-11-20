@@ -1,0 +1,32 @@
+[{
+    "primary": {
+        "title": [
+            {
+                "type": "heading1",
+                "text": "California DOJ Missing Persons",
+                "spans": []
+            }
+        ],
+        "description": [
+            {
+                "type": "paragraph",
+                "text": "TheMissing and Unidentified Persons Sectionin the California Department of Justice assists law enforcement and criminal justice agencies in locating missing persons and identifying unknown live and deceased persons through the comparison of physical characteristics, fingerprints and dental/body X-rays.",
+                "spans": []
+            }
+        ],
+        "ctaLink": [
+            {
+                "url": "https://oag.ca.gov/subscribe"
+            }
+        ],
+        "ctaButton": "Subscribe to Bulletins",
+        "orgImage": [
+            {
+                "dimensions": {"width":320,"height":320},
+                "alt":"Placeholder image",
+                "copyright":null,
+                "url":"https://images.prismic.io/missingkids/c7509b4c-8eee-48cc-b611-9ecf546854b0_doj-seal-header.png?"
+            }
+        ]
+    }
+}]

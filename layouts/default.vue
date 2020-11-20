@@ -17,6 +17,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(https://tom.imgix.net/corkboard.jpg)
+}
+
 *,
 *::before,
 *::after {

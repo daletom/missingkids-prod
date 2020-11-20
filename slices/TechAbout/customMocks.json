@@ -1,0 +1,36 @@
+[{
+    "primary": {
+        "title": [
+            {
+                "type": "heading1",
+                "text": "This is How I Made the Site",
+                "spans": []
+            }
+        ],
+        "description": [
+            {
+                "type": "paragraph",
+                "text": "Below is an example of how I made this site. The site was made using Prismic as part of their #slicecontest.  You will notice a lot of the changes I made to the images are using an API that is part of imgix.  Prismic does natively use imgix for their images for sizes, compression, formatting, & responsive design. But there are a lot of tricks you can do around styling & design to the image as well. Below, you will see explanations of how I applied this using the imgix API in conjunction with Prismic.",
+                "spans": []
+            }
+        ]
+    },
+    "items": [
+        {
+            "sectionTitle": [
+                {
+                    "type": "heading1",
+                    "text": "Creating Polaroid Style Images",
+                    "spans": []
+                }
+            ],
+            "details": [
+                {
+                    "type": "heading1",
+                    "text": "I wanted to create polaroid style photos. They are actually pretty simple to make, you can just add padding around the photo, but the key is that on the bottom the padding needs to be larger.  You can certainly use css to do this, but I wanted to do this with imgix so the image that is indexed later in google still looks like this.  I set a general padding number, then a larger pad-bottom number, and then declared what color I wanted these padded areas to be. Below is the imgix API I used to create the padding to make it look like a polaroid photo:",
+                    "spans": []
+                }
+            ]
+        }
+    ]
+}]

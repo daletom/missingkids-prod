@@ -1,0 +1,56 @@
+{
+  "id": "missing_image",
+  "type": "SharedSlice",
+  "name": "MissingImage",
+  "description": "MissingImage",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "MissingImage",
+      "primary": {
+        "name": {
+          "config": {
+            "label": "Name",
+            "placeholder": "Name of missing person",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          },
+          "type": "StructuredText"
+        },
+        "info": {
+          "config": {
+            "label": "Info",
+            "placeholder": "Info for missing indiv on image",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "missing": {
+          "type": "Image",
+          "config": {
+            "id": "missing",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "thumbtack": {
+          "config": {
+            "label": "thumbtack",
+            "constraint": {
+              "width": 60,
+              "height": 56
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

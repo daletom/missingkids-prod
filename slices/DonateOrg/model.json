@@ -1,0 +1,59 @@
+{
+  "id": "donate_org",
+  "type": "SharedSlice",
+  "name": "DonateOrg",
+  "description": "DonateOrg",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "DonateOrg",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "ctaButton": {
+          "config": {
+            "label": "Button CTA",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Button Link",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "orgImage": {
+          "type": "Image",
+          "config": {
+            "id": "orgImage",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
