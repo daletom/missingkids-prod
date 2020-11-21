@@ -1,0 +1,125 @@
+{
+  "id": "about_me",
+  "type": "SharedSlice",
+  "name": "AboutMe",
+  "description": "AboutMe",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "AboutMe",
+      "primary": {
+        "name": {
+          "config": {
+            "label": "Your Name",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          },
+          "type": "StructuredText"
+        },
+        "profession": {
+          "config": {
+            "label": "Your profession or title",
+            "placeholder": "Your profession or title",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "location": {
+          "config": {
+            "label": "Location",
+            "placeholder": "Where you are from or residing",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "A little about yourself",
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "email": {
+          "config": {
+            "label": "email",
+            "placeholder": "Your email address"
+          },
+          "type": "Text"
+        },
+        "image": {
+          "config": {
+            "label": "Image of Yourself",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "twitter": {
+          "config": {
+            "label": "twitter",
+            "placeholder": "your twitter",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "github": {
+          "config": {
+            "label": "github account",
+            "placeholder": "github account",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "unsplash": {
+          "config": {
+            "label": "Unsplash account",
+            "placeholder": "Unsplash account",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "dev": {
+          "config": {
+            "label": "Your Dev.to account",
+            "placeholder": "Your Dev.to account",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "linkedin": {
+          "config": {
+            "label": "Your Linkedin account",
+            "placeholder": "Your Linkedin account",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "facebook": {
+          "config": {
+            "label": "Your Facebook account",
+            "placeholder": "Your Facebook account",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "youtube": {
+          "config": {
+            "label": "Your youtube account",
+            "placeholder": "Your youtube account",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -11,11 +11,11 @@
         <nuxt-link to="/help" class="no-underline mr-2 block mt-4 sm:inline-block sm:mt-0 text-white hover:text-yellow-400">
           Ways to Help
         </nuxt-link>
-        <a href="/projects" class="no-underline mr-2 block mt-4 sm:inline-block sm:mt-0 text-white hover:text-yellow-400">
-          Projects
-        </a>
         <a href="/about" class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-yellow-400 mr-4">
           About Project
+        </a>
+        <a href="/aboutme" class="no-underline mr-2 block mt-4 sm:inline-block sm:mt-0 text-white hover:text-yellow-400">
+          About Author
         </a>
       </div>
       <div>
