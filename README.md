@@ -26,6 +26,7 @@ I wanted to create polaroid style photos. They are actually pretty simple to mak
 pad-bottom=75&pad=10&bg=E8E8EB 
 ```
 Then I begin adding different sizes to the image, add a missing "stamp" as a blend, then create a text field at the bottom of the image in the same style I did above as a watermark, but fill that area with a rich text field from a prismic slice.
+
 ![code snippet example](https://images.prismic.io/missingkids/bcf43dba-baa4-4e77-8f96-edf0e6978b4e_missingimgcode.png?auto=compress,format&w=640&h=480&fit=fill&fill=solid&fill-color=CBD5E0)
 
 Ultimately, I am creating an image that looks like this: 
@@ -40,7 +41,7 @@ To keep track of your progress and to be sure not to miss anything here's a simp
 
 - [X] My library contains at least **5 different slices**
 - [X] I have updated the [LICENSE](./LICENSE) to credit myself for my library
-- [X] The Storybook documentation is hosted here: https://github.com/daletom/missingkids#-documentation 
+- [X] The Storybook documentation is hosted here: https://github.com/daletom/missingkids#documentation 
 - [X] My library does not contain any non-public licensed assets
 
 
