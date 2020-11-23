@@ -1,0 +1,33 @@
+[{
+    "primary": {
+        "name": [
+            {
+                "type": "heading1",
+                "text": "Tom Dale",
+                "spans": []
+            }
+        ],
+        "profession": [
+            {
+                "type": "heading1",
+                "text": "Head of Customer Success at imgix",
+                "spans": []
+            }
+        ],
+        "location": [
+            {
+                "type": "heading1",
+                "text": "San Francisco East Bay, CA",
+                "spans": []
+            }
+        ],
+        "description": [
+            {
+                "type": "paragraph",
+                "text": "Head of Customer Success at imgix, father of 2 little ones, enjoy using Vue/Nuxt, home brewer, painter, lover of board games, fought in 2 wars in '04 and '05 as a Counterintelligence Agent in the Army.",
+                "spans": []
+            }
+        ],
+        "email": "tom@imgix.com"
+    }
+}]

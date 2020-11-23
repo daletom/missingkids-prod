@@ -1,0 +1,140 @@
+{
+  "id": "missing_page",
+  "type": "SharedSlice",
+  "name": "MissingPage",
+  "description": "MissingPage",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "MissingPage",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your product"
+          }
+        },
+        "image": {
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "missingSince": {
+          "config": {
+            "label": "They have been missing since..",
+            "placeholder": "They have been missing since..",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "age": {
+          "config": {
+            "label": "Their current age",
+            "placeholder": "Their current age",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "race": {
+          "config": {
+            "label": "Their race / ethnicity",
+            "placeholder": "Their race / ethnicity",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "sex": {
+          "config": {
+            "label": "Their sex",
+            "placeholder": "Their sex",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "eyes": {
+          "config": {
+            "label": "Their eye color",
+            "placeholder": "Their eye color",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "hair": {
+          "config": {
+            "label": "Their hair color",
+            "placeholder": "Their hair color",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "contactAgency": {
+          "config": {
+            "label": "The main contact agency",
+            "placeholder": "The main contact agency",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "contactNumber": {
+          "config": {
+            "label": "The agency contact number",
+            "placeholder": "The agency contact number",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "contactCase": {
+          "config": {
+            "label": "Their case number",
+            "placeholder": "Their case number",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "marks": {
+          "config": {
+            "label": "Identifying Marks, scars, etc",
+            "placeholder": "Identifying Marks, scars, etc",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "altImage": {
+          "config": {
+            "label": "Additional image on right",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import Slice from './';
 import model from './model';
 import mocks from './mocks.json';
+import customMocks from './customMocks.json';
 import SliceZone from 'vue-slicezone';
 
 export default {
@@ -15,7 +16,17 @@ export const DefaultSlice = () => ({
   },
   data() {
     return {
-      mock: mocks[0],
+      mock: (() => {
+        const newMock = { ...mocks[0] };
+        newMock.primary.name = customMocks[0].primary.name;
+        newMock.primary.profession = customMocks[0].primary.profession;
+        newMock.primary.location = customMocks[0].primary.location;
+        newMock.primary.description = customMocks[0].primary.description;
+        newMock.primary.email = customMocks[0].primary.email;
+        //newMock.primary.missing = customMocks[0].primary.missing;
+
+        return newMock;
+      })(),
       resolver() {
         return Slice;
       }
